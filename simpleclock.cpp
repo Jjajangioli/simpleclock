@@ -207,7 +207,7 @@ int main() {
             }
         }
     }
-    std::cout << "Currently using MM/DD/YY format. Would you like to change to DD/MM/YY format? y/n\n";
+    std::cout << "Currently using MM/DD/YYYY format. Would you like to change to DD/MM/YYYY format? y/n\n";
     std::string dmYesNo;
     std::cin >> dmYesNo;
     for (unsigned i = 0; i < yesNo.size(); i++) {
